@@ -1,0 +1,19 @@
+#Simplified Conjoint Recognition model with separate parameters
+IntactFA II_EncodewithFA Vi_fa+(1-Vi_fa)*Gi_fa*a_fa+(1-Vi_fa)*(1-Gi_fa)*b_fa*a_fa
+IntactFA RI_EncodewithFA (1-Vi_fa)*Gi_fa*(1-a_fa)+(1-Vi_fa)*(1-Gi_fa)*b_fa*(1-a_fa)
+IntactFA UI_EncodewithFA (1-Vi_fa)*(1-Gi_fa)*(1-b_fa)
+RelatedFA IR_EncodewithFA (1-Vr_fa)*Gr_fa*a_fa+(1-Vr_fa)*(1-Gr_fa)*b_fa*a_fa
+RelatedFA RR_EncodewithFA Vr_fa+(1-Vr_fa)*Gr_fa*(1-a_fa)+(1-Vr_fa)*(1-Gr_fa)*b_fa*(1-a_fa)
+RelatedFA UR_EncodewithFA (1-Vr_fa)*(1-Gr_fa)*(1-b_fa)
+UnrelatdFA IU_EncodewithFA b_fa*a_fa
+UnrelatdFA RU_EncodewithFA b_fa*(1-a_fa)
+UnrelatdFA UU_EncodewithFA 1-b_fa
+IntactAddition II_EncodewithAddition Vi_addition+(1-Vi_addition)*Gi_addition*a_addition+(1-Vi_addition)*(1-Gi_addition)*b_addition*a_addition
+IntactAddition RI_EncodewithAddition (1-Vi_addition)*Gi_addition*(1-a_addition)+(1-Vi_addition)*(1-Gi_addition)*b_addition*(1-a_addition)
+IntactAddition UI_EncodewithAddition (1-Vi_addition)*(1-Gi_addition)*(1-b_addition)
+RelatedAddition IR_EncodewithAddition (1-Vr_addition)*Gr_addition*a_addition+(1-Vr_addition)*(1-Gr_addition)*b_addition*a_addition
+RelatedAddition RR_EncodewithAddition Vr_addition+(1-Vr_addition)*Gr_addition*(1-a_addition)+(1-Vr_addition)*(1-Gr_addition)*b_addition*(1-a_addition)
+RelatedAddition UR_EncodewithAddition (1-Vr_addition)*(1-Gr_addition)*(1-b_addition)
+UnrelatdAddition IU_EncodewithAddition b_addition*a_addition
+UnrelatdAddition RU_EncodewithAddition b_addition*(1-a_addition)
+UnrelatdAddition UU_EncodewithAddition 1-b_addition
