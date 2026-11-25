@@ -63,7 +63,11 @@ MPT model
       Model equations used to fit the simulated data sets.
 
   mpt_*.RData
-      The fitted model, including the posterior samples.
+      The fitted model, including the posterior samples. These two files (about
+      600 MB each) are too large for the repository. Download them from the
+      v1.0 release
+      (https://github.com/wwwwwyang-0220/divided-attention-encoding-retrieval/releases/tag/v1.0)
+      and put each one in its experiment folder.
 
   mpt_*.jags, mpt_*.txt
       JAGS model file and summary of the parameter estimates, both written by
