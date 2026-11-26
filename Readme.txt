@@ -1,5 +1,8 @@
 Title: A Memory Representational Perspective on the Asymmetric Effects of Divided Attention at Encoding and Retrieval
 
+Archived on Zenodo, including the large model files: https://doi.org/10.5281/zenodo.24545658
+Code repository: https://github.com/wwwwwyang-0220/divided-attention-encoding-retrieval
+
 
 DATA AND ANALYSIS CODE
 
@@ -67,7 +70,8 @@ MPT model
       600 MB each) are too large for the repository. Download them from the
       v1.0 release
       (https://github.com/wwwwwyang-0220/divided-attention-encoding-retrieval/releases/tag/v1.0)
-      and put each one in its experiment folder.
+      or from Zenodo (https://doi.org/10.5281/zenodo.24545658), and put each
+      one in its experiment folder.
 
   mpt_*.jags, mpt_*.txt
       JAGS model file and summary of the parameter estimates, both written by
