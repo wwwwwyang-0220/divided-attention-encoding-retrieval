@@ -1,4 +1,4 @@
-Title: A Memory Representational Perspective on the Asymmetric Effects of Divided Attention at Encoding and Retrieval
+Title: A Memory Representational Perspective on the Asymmetric Effects of Divided Attention Encoding and Retrieval
 
 Archived on Zenodo, including the large model files: https://doi.org/10.5281/zenodo.24545658
 Code repository: https://github.com/wwwwwyang-0220/divided-attention-encoding-retrieval
